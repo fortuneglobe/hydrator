@@ -1,0 +1,26 @@
+{
+	"name": "fortuneglobe/hydrator",
+	"description": "Hydrator",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "hwoltersdorf",
+			"email": "holger.woltersdorf@fortuneglobe.com"
+		}
+	],
+	"require": {
+		"php-64bit": ">=5.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fortuneglobe\\Hydrator\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Fortuneglobe\\Hydrator\\Tests\\Unit\\": "tests/unit/"
+		}
+	}
+}

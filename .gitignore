@@ -1,0 +1,27 @@
+.idea/
+
+# vagrant
+.vagrant/
+vagrant
+!env/vagrant
+
+# composer
+vendor
+!public/vendor
+
+#tools
+build/tools/*.phar
+
+# locally generated docs
+build/api/
+build/phpdox/
+build/logs/
+build/vendors-api/
+
+# tests
+tests/*
+!tests/_bootstrap.php
+!tests/acceptance/
+!tests/functional/
+!tests/unit/
+tests/_output/*
