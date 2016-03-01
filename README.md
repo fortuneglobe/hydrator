@@ -53,6 +53,7 @@ MyEntity Object
 The hydration also works if you apply it to derived classes.
 
 ```php
+<?php
 
 class MyDerivedEntity extends MyEntity
 {
@@ -91,6 +92,8 @@ As of the Hydrator class is meant to copy the behaviour of Php's `PDOStatement::
 Let's translate the date string into a `\DateTimeImmutable` object.
 
 ```php
+<?php
+
 class MyDerivedEntity extends MyEntity
 {
     /** @var \DateTimeImmutable */
@@ -140,6 +143,8 @@ MyDerivedEntity Object
 If your entity's constructor expects arguments, you can provide them as array to the `Hydrator->fromRecord()`` method as the second parameter.
 
 ```php
+<?php
+
 class MyDerivedEntity extends MyEntity
 {
     /** @var \DateTimeImmutable */
