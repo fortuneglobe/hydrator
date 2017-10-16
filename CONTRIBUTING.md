@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via pull requests on `git@gitlab.fortuneglobe.com/fortunesolutions/hydrator.git`.
+We accept contributions via pull requests on `https://github.com/fortuneglobe/hydrator.git`.
 
 
 ## Pull Requests
