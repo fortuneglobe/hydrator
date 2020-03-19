@@ -11,7 +11,7 @@
 		}
 	],
 	"require": {
-		"php-64bit": ">=5.5"
+		"php": ">=5.5"
 	},
 	"autoload": {
 		"psr-4": {
