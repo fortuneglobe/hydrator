@@ -138,7 +138,11 @@ class Hydrator
 
 		if ( isset($record[ $member ]) )
 		{
-			$property->setAccessible( true );
+			if ( PHP_VERSION_ID < 80100 )
+			{
+				$property->setAccessible( true );
+			}
+
 			$property->setValue( $object, $record[ $member ] );
 		}
 	}
